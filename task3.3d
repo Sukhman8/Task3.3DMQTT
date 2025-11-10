@@ -21,7 +21,7 @@ const int echoPin = 3;
 const int ledPin  = 7; 
 
 // ===== Timing control =====
-unsigned long lastWave = 0;
+unsigned long lastWave = 0; //used for time values
 unsigned long lastPat = 0;
 const unsigned long cooldown = 2000; 
 long getDistance() {
